@@ -1,0 +1,11 @@
+mask_num=5
+dataset="human_eval"
+CUDA_VISIBLE_DEVICES=6 python tests/eval_infer.py \
+      --llm_dir=/data/FM/yihanling/space_code/output_dir/llama2-7b_03-26-15-29/ \
+      --mask_id=32002 \
+      --dataset=$dataset \
+      --mask_num=$mask_num \
+      --do_sample=false \
+      --use_cache=false \
+      --model_type=llama \
+      --mask_diff=false
