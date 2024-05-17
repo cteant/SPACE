@@ -12,6 +12,8 @@ Main Result:
 > [Generation Meets Verification: Accelerating Large Language Model Inference with Smart Parallel Auto-Correct Decoding](https://arxiv.org/abs/2402.11809)  
 > Hanling Yi, Feng Lin, Hongbin Li, Peiyang Ning, Xiaotian Yu, Rong Xiao
 
+- 🔥🔥🔥  **News**: ```2024/5/16```: [SPACE](https://arxiv.org/abs/2402.11809) was accepted in ACL 2024 Findings!
+
 ## Setting Up Environment
 Install Dependencies
 ```bash
