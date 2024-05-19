@@ -11,7 +11,9 @@ import argparse
 import jieba
 from rouge import Rouge
 from datasets import Dataset
-
+import os
+import sys
+sys.path.append(os.getcwd())
 from src.models.modeling_llama import LlamaForCausalLM, _make_causal_mask, _expand_mask
 
 RANDOM_SEED = 2023

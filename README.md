@@ -35,6 +35,11 @@ For evaluation, change ``llm_dir`` in run_eval.sh to the output dir and run the 
 bash run_eval.sh
 ```
 
+[2024/5/19] We have released a Vicuna-7B model trained with SPACE, please download the checkpoint from [HF](https://huggingface.co/AntMan/vicuna-v1.3-7b-space) and run the following for evalution.
+```python
+python tests/eval_infer.py --llm_dir=path/to/model --mask_id=32002 --dataset="human_eval" --mask_num=5 --do_sample=false --use_cache=true --model_type=llama --mask_diff=false
+```
+
 ## License
 This repository is licensed under the [Apache-2.0 License](LICENSE).
 
